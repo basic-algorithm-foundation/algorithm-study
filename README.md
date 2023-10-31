@@ -5,12 +5,12 @@
 .
 └── algorithm-studdy/
     ├── week 1/
-    │   ├── [문제명]/
+    │   ├── ${문제명}/
     │   │   ├── hyeonju01/
     │   │   │   └── README.md
     │   │   └── cottonpup/
     │   │       └── README.md
-    │   └── [문제명]/
+    │   └── ${문제명}/
     │       ├── hyeonju01/
     │       │   └── README.md
     │       └── cottonpup/
