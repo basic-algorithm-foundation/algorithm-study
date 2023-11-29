@@ -1,9 +1,8 @@
-# [problem-title](url)
+# [나이 출력](https://school.programmers.co.kr/learn/courses/30/lessons/120820)
 ```java
-code blah blah
+class Solution {
+    public int solution(int age) {
+        return 2022 - age + 1;
+    }
+}
 ```
-
-- 알게된 점
-1. abc
-2. def
-3. ghi

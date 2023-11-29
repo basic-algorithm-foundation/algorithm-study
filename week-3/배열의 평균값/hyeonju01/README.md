@@ -1,9 +1,14 @@
-# [problem-title](url)
+# [배열의 평균값](https://school.programmers.co.kr/learn/courses/30/lessons/120817)
 ```java
-code blah blah
+class Solution {
+    public double solution(int[] numbers) {
+        double answer = 0;
+        int sum = 0;
+        for (int number: numbers) {
+            sum = sum + number;
+        }
+        answer = (double)sum / numbers.length;
+        return answer;
+    }
+}
 ```
-
-- 알게된 점
-1. abc
-2. def
-3. ghi

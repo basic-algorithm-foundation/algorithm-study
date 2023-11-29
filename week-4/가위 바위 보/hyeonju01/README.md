@@ -1,9 +1,28 @@
-# [problem-title](url)
+# [가위 바위 보](https://school.programmers.co.kr/learn/courses/30/lessons/120839)
 ```java
-code blah blah
-```
+class Solution {
+    public String solution(String rsp) {
+        String answer = "";
+        // 가위(2) lose 바위(0)
+        // 바위(0) lose 보(5)
+        // 보(5) lose 가위(2)
 
-- 알게된 점
-1. abc
-2. def
-3. ghi
+        for(int i = 0; i < rsp.length(); i++) {
+            char input = rsp.charAt(i);
+            switch(input) {
+                case '2':
+                    answer = answer.concat("0");
+                    break;
+                case '0':
+                    answer = answer.concat("5");
+                    break;
+                case '5':
+                    answer = answer.concat("2");
+                    break;
+            }
+        }
+
+        return answer;
+    }
+}
+```
