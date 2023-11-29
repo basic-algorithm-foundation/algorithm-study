@@ -1,9 +1,16 @@
-# [problem-title](url)
+# [등차수열의 특정한 항만 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181931)
 ```java
-code blah blah
-```
+class Solution {
+    public int solution(int a, int d, boolean[] included) {
+        int answer = 0;
 
-- 알게된 점
-1. abc
-2. def
-3. ghi
+        for (int i = 0; i < included.length; i++) {
+            if (included[i] == true) {
+                answer = answer + (a + d * i);
+            }
+        }
+
+        return answer;
+    }
+}
+```
