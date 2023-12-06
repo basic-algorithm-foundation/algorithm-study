@@ -1,0 +1,12 @@
+# [문자열 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/120822)
+```java
+class Solution {
+    public String solution(String my_string) {
+        String answer = "";
+        for(int i = my_string.length()-1; i >= 0; i--) {
+            answer = answer + my_string.charAt(i);
+        }
+        return answer;
+    }
+}
+```
