@@ -1,3 +1,8 @@
-# README
-
-This is a README file.
+[문자열로 변환](https://school.programmers.co.kr/learn/courses/30/lessons/181845)
+```java
+class Solution {
+    public String solution(int n) {
+        return String.valueOf(n);
+    }
+}
+```
