@@ -1,3 +1,5 @@
-# README
-
-This is a README file.
+```js
+function solution(myString, pat) {
+    return myString.toUpperCase().includes(pat.toUpperCase()) ? 1 : 0
+}
+```
