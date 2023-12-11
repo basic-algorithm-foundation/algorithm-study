@@ -1,3 +1,5 @@
-# README
-
-This is a README file.
+```js
+function solution(my_string) {
+    return my_string.split(' ').filter(str => str !== '');
+}
+```
